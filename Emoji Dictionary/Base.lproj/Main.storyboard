@@ -39,5 +39,40 @@
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="117.39130434782609"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="cWl-Bb-R8t">
+            <objects>
+                <viewController id="wPw-31-QGf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mhX-cl-ejf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🎃" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7wR-qQ-m82">
+                                <rect key="frame" x="78" y="60" width="218" height="239"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="200"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a Halloween Jack'O'Lantern" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3PX-NS-XD6">
+                                <rect key="frame" x="54.5" y="349" width="265.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3PX-NS-XD6" firstAttribute="top" secondItem="7wR-qQ-m82" secondAttribute="bottom" constant="50" id="6iA-Gs-ni4"/>
+                            <constraint firstItem="3PX-NS-XD6" firstAttribute="centerX" secondItem="mhX-cl-ejf" secondAttribute="centerX" id="AoN-vF-xly"/>
+                            <constraint firstItem="7wR-qQ-m82" firstAttribute="top" secondItem="TYa-5T-Pxg" secondAttribute="top" constant="40" id="Bt5-Cz-dY2"/>
+                            <constraint firstItem="7wR-qQ-m82" firstAttribute="centerX" secondItem="mhX-cl-ejf" secondAttribute="centerX" id="KV6-H1-c3B"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="TYa-5T-Pxg"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xtP-Dq-rUY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="764" y="117"/>
+        </scene>
     </scenes>
 </document>
